@@ -48,6 +48,7 @@
             cargo-watch
             rust-analyzer
             gcc
+            taplo
           ];
 
           env = {
