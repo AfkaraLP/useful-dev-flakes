@@ -28,6 +28,7 @@
           with inputs.fenix.packages.${prev.stdenv.hostPlatform.system};
           combine (with stable; [
             targets.wasm32-wasip2.stable.rust-std
+            targets.wasm32-unknown-unknown.stable.rust-std
             clippy
             rustc
             cargo
